@@ -19,6 +19,11 @@ export ∇, Δ, Δ²
 include("kernels.jl")
 export SquaredExponentialKernel, Matern52Kernel
 
-include("wavelets.jl")
-include("rfnn.jl")
+include("rfnn_solvers.jl")
+
+include("radial_bases_solvers.jl")
+
+include("gaussian_process_solvers.jl")
+
+
 end
